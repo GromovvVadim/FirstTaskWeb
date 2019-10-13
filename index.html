@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -16,11 +17,13 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
   <!-- Start your project here-->
+
   <!--Start header-->
   <header class="top-navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,15 +35,61 @@
         <div class="collapse navbar-collapse" id="navbars-rs-food">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Menu</a></li>
-            <li class="nav-item"><a class="nav-link" href="">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Reservation">Reservation</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
   <!-- End header -->
+
+  <!-- Start slides -->
+  <div id="slides" class="cover-slides">
+    <ul class="slides-container">
+      <li class="text-center">
+        <img src="img/slider/first.jpg" alt="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="m-b-20">Welcome To <br> Cosa Nostra Restaurant</h1>
+              <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#Reservation">Reservation</a></p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="text-center">
+        <img src="img/slider/second.jpg" alt="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="m-b-20">The Elegant<br>Italian Restaurant</h1>
+              <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#Reservation">Reservation</a></p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="text-center">
+        <img src="img/slider/third.jpg" alt="">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="m-b-20">Delicious<br> Spicy Masalas</h1>
+              <p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#Reservation">Reservation</a></p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="slides-navigation">
+      <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+      <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <!-- End slides -->
+
   <!-- Start your project here-->
 
   <!-- SCRIPTS -->
@@ -52,6 +101,9 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="js/jquery.superslides.min.js"></script>
+  <script src="js/baguetteBox.min.js"></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
