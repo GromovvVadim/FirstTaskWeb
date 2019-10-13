@@ -207,13 +207,13 @@ button:focus{
 .slides-navigation a {
     background: #cfa671;
     position: absolute;
-    height: 70px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
     top: 50%;
     font-size: 20px;
     display: block;
     color: #fff;
-    line-height: 80px;
+    line-height: 55px;
     text-align: center;
     transition: all .3s ease-in-out;
 }
