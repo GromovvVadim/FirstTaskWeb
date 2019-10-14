@@ -305,7 +305,7 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .about-section-box{
-    padding: 70px 0px;
+    padding: 100px 0px;
 }
 .about-section-box .img-fluid{
     box-shadow: -10px -10px 0px #d0a772;
@@ -339,7 +339,7 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .menu-box{
-    padding: 70px 0px;
+    padding: 90px 0px;
 }
 
 .heading-title{
@@ -427,5 +427,79 @@ button:focus{
 
 .gallery-single:hover .why-text{
     bottom: 0px;
+}
+
+/*------------------------------------------------------------------
+    Customer Reviews
+-------------------------------------------------------------------*/
+
+.customer-reviews-box{
+    padding: 50px 0;
+}
+
+.carousel-inner .carousel-item .img-box{
+    width: 150px;
+    height: 150px;
+}
+.carousel-control-prev{
+    left: -100px;
+}
+.carousel-control-next{
+    right: -100px;
+}
+.carousel-indicators{
+    top: 320px;
+}
+
+.text-warning{
+    color: #d0a772 !important;
+    font-size: 24px;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+    .carousel-inner .carousel-item p{
+        font-size: 10px;
+    }
+    .carousel-control-prev{
+        left: -5px;
+    }
+    .carousel-control-next{
+        right: -5px;
+    }
+    .carousel-indicators{
+        top: 400px;
+    }
+}
+
+#reviews .carousel-control-prev{
+    background: #d0a772;
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    width: 4%;
+    height: 30px;
+    top: 50%;
+    font-size: 18px;
+    opacity: 1;
+}
+#reviews .carousel-control-prev:hover{
+    background: #010101;
+    color: #ffffff;
+}
+
+#reviews .carousel-control-next{
+    background: #d0a772;
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    width: 4%;
+    height: 30px;
+    top: 50%;
+    font-size: 18px;
+    opacity: 1;
+}
+#reviews .carousel-control-next:hover{
+    background: #010101;
+    color: #ffffff;
 }
 
