@@ -512,11 +512,10 @@ button:focus{
 }
 
 /*==================
- CONTACT SECTION
+ CONTACT 
 ====================*/
 
 #mu-contact {
-  background-color: #f8f8f8;
   display: inline;
   float: left;
   padding: 100px 0;
@@ -553,32 +552,10 @@ button:focus{
   letter-spacing: 0.5px;
 }
 
-.mu-contact-form input[type="text"],
-.mu-contact-form input[type="email"] {
-  color: #000;
-  border-radius: 0;
-  height: 40px;
-}
-
-.mu-contact-form input[type="text"]:focus,
-.mu-contact-form input[type="email"]:focus {
-  box-shadow: none;
-}
-
-.mu-contact-form textarea {
-  color: #000;
-  border-radius: 0;
-  padding: 10px;
-}
-
-.mu-contact-form textarea:focus {
-  box-shadow: none;
-}
-
 .mu-contact-right {
   display: inline;
   float: left;
-  padding: 10px 0px 0px 150px;
+  padding: 10px 0px 0px 10px;
   width: 100%;
   font-family: Open Sans, sans-serif;
 }
@@ -627,29 +604,6 @@ button:focus{
     background-color: #fff;
 }
 
-.success {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #468847;
-  background-color: #dff0d8;
-  border: 1px solid #d6e9c6;
-  -webkit-border-radius: 4px;
-   -moz-border-radius: 4px;
-        border-radius: 4px;
-}
-
-.error {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #b94a48;
-  background-color: #f2dede;
-  border: 1px solid rgba(185, 74, 72, 0.3);
-  -webkit-border-radius: 4px;
-   -moz-border-radius: 4px;
-        border-radius: 4px;
-}
 .submit-button{
     margin-top: 20px;
 }
@@ -665,7 +619,7 @@ button:focus{
     border-color: #cfa671;
 }
 /*==================
- MAP SECTION
+ MAP 
 ====================*/
 
 #mu-map {
@@ -679,4 +633,45 @@ button:focus{
 #mu-map iframe {
     width: 100%;
     height: 100%;
+}
+/*==================
+    Reservation
+====================*/
+.reservation-box{
+    padding: 100px 0px;
+    background-color: #f8f8f8;
+}
+
+.reservation-box h3{
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form-control[readonly]{
+    background-color: #ffffff;
+}
+
+.form-control{
+    border-radius: 0px;
+    min-height: 50px;
+}
+.form-control:focus{
+    border: 1px solid #d0a772;
+    box-shadow: none;
+}
+
+.submit-button{
+    margin-top: 20px;
+}
+.btn.btn-common{
+    color: #d0a772;
+    background-color: transparent;
+    background-image: none;
+    border-color: #cfa671;
+}
+.btn.btn-common:hover{
+    color: #ffffff;
+    background-color: #cfa671;
+    border-color: #cfa671;
 }
