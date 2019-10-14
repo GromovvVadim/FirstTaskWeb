@@ -17,25 +17,6 @@
     SKELET
 -------------------------------------------------------------------*/
 
-body {
-    color: #666666;
-    font-size: 15px;
-    font-family: 'Athiti', sans-serif;
-    line-height: 1.80857;
-}
-
-
-a {
-    color: #1f1f1f;
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
 h1,
 h2,
 h3,
@@ -51,106 +32,9 @@ h6 {
     color: #1f1f1f;
     margin: 0
 }
-
-h1 {
-    font-size: 24px
-}
-
-h2 {
-    font-size: 22px
-}
-
 h3 {
     font-size: 18px
 }
-
-h4 {
-    font-size: 16px
-}
-
-h5 {
-    font-size: 14px
-}
-
-h6 {
-    font-size: 13px
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    color: #212121;
-    text-decoration: none!important;
-    opacity: 1
-}
-
-h1 a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
-    opacity: .8
-}
-
-a {
-    color: #1f1f1f;
-    text-decoration: none;
-    outline: none;
-}
-
-a,
-.btn {
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-custom {
-    margin-top: 20px;
-    background-color: transparent !important;
-    border: 2px solid #ddd;
-    padding: 12px 40px;
-    font-size: 16px;
-}
-
-.lead {
-    font-size: 18px;
-    line-height: 30px;
-    color: #767676;
-    margin: 0;
-    padding: 0;
-}
-
-blockquote {
-    margin: 20px 0 20px;
-    padding: 30px;
-}
-
-ul, li, ol{
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-}
-button:focus{
-	outline: none;
-}
-
-.form-control::-moz-placeholder {
-    color: #2a2a2a;
-    opacity: 1;
-}
-
-/*------------------------------------------------------------------
-    LOADER 
--------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------------
@@ -166,17 +50,15 @@ button:focus{
     font-size: 40px;
     font-weight: bold;
 }
-
 .top-navbar .navbar{
-	padding: 15px 0px;
-	position: fixed;
-	width: 100%;
-	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	z-index: 100;
+    padding: 15px 0px;
+    position: fixed;
+    width: 100%;
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 100;
 }
-
 .top-navbar .navbar-light .navbar-nav .nav-link{
 	color: #010101;
 	font-size: 18px;
@@ -185,18 +67,6 @@ button:focus{
     font-family: "Open Sans"
 }
 
-.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	background: #be4fe0;
-	color: #ffffff;
-}
-.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #c872d0;
-	color: #ffffff;
-	border-radius: 4px;
-}
-.navbar-light .navbar-toggler:hover{
-	background: #cfa671;
-}
 
 /*----------------------sa--------------------------------------------
     Slider
@@ -322,20 +192,11 @@ button:focus{
     font-family: Tangerine;
     font-size: 45px;
 }
-.inner-column h4{
-    font-size: 16px;
-    font-weight: 500;
-}
 .inner-column p{
     font-size: 18px;
     font-family: "Open Sans";
 }
-.inner-column .btn-outline-new-white{
-    color: #d0a772;
-}
-.inner-column .btn-outline-new-white:hover{
-    color: #ffffff;
-}
+
 /*------------------------------------------------------------------
     Menu
 -------------------------------------------------------------------*/
@@ -352,11 +213,6 @@ button:focus{
     color: #010101;
     font-size: 28px;
     font-family: 'Arbutus Slab', serif;
-}
-.heading-title p{
-    font-size: 18px;
-    font-weight: 200;
-    margin: 0px;
 }
 
 .filter-button-group {
@@ -387,9 +243,6 @@ button:focus{
 
 .gallery-single{
     margin: 30px 0px;
-}
-
-.gallery-single {
     position: relative;
     overflow: hidden;
     -webkit-box-shadow: 0 0 10px #ccc;
@@ -459,14 +312,14 @@ button:focus{
     font-size: 24px;
 }
 .carousel-inner .carousel-item p{
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Open Sans"
 }
 
 
 @media (min-width: 320px) and (max-width: 640px) {
     .carousel-inner .carousel-item p{
-        font-size: 10px;
+        font-size: 16px;
     }
     .carousel-control-prev{
         left: -5px;
@@ -485,8 +338,8 @@ button:focus{
     display: block;
     position: absolute;
     width: 4%;
-    height: 30px;
-    top: 50%;
+    height: 25px;
+    top: 180px;
     font-size: 18px;
     opacity: 1;
 }
@@ -501,8 +354,8 @@ button:focus{
     display: block;
     position: absolute;
     width: 4%;
-    height: 30px;
-    top: 50%;
+    height: 25px;
+    top: 180px;
     font-size: 18px;
     opacity: 1;
 }
