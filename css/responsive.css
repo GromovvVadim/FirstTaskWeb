@@ -14,9 +14,6 @@
 		margin-right: 15px;
 		border-radius: 0px;
 	}
-	.navbar-expand-lg .navbar-nav .dropdown-menu{
-		box-shadow: none;
-	}
 	.carousel-control-prev{
 		left: -60px;
 	}

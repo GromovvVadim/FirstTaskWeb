@@ -70,7 +70,6 @@ h3 {
     background: #cfa671;    
     color: #ffffff; 
 } 
-    
 
 /*----------------------sa--------------------------------------------
     Slider
@@ -378,6 +377,7 @@ h3 {
   float: left;
   padding: 100px 0;
   width: 100%;
+  background: #ffffff;
 }
 
 .mu-contact-area {
@@ -396,6 +396,7 @@ h3 {
 .mu-contact-left {
   display: inline;
   float: left;
+  padding-bottom: : 100px;
   font-family: Open Sans, sans-serif;
   width: 100%;
 }
@@ -554,4 +555,79 @@ h3 {
 .tz-gallery .lightbox img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+
+/***** Footer *****/
+
+.footer-top { 
+    padding: 40px 0;
+    background: #333; 
+    text-align: left; 
+    color: #aaa; 
+}
+.footer-top h2 { 
+    margin-top: 30px;
+    margin-bottom: -10px;
+    color: #fff; 
+    font-family: Tangerine;
+    font-size: 46px;
+}
+.footer-top h3 { 
+    padding-top: 5px; 
+    margin-top: 45px;
+    color: #fff; 
+}
+
+.footer-about p a { 
+    border: 0; 
+    color: #cfa671;
+}
+
+.footer-contact p { 
+    word-wrap: break-word; 
+}
+.footer-contact i { 
+    padding-right: 10px; 
+    font-size: 18px; 
+    color: #cfa671; 
+}
+.footer-contact p a { 
+    border: 0; 
+}
+
+.footer-links a { 
+    color: #aaa; 
+    border: 0; 
+}
+.footer-links a:hover, .footer-links a:focus { 
+    color: #cfa671; 
+}
+
+.footer-bottom { 
+    padding: 15px 0 17px 0; 
+    background: #444; 
+    text-align: left; 
+    color: #aaa; }
+
+.footer-social { 
+    padding-top: 3px; 
+    text-align: right; 
+}
+.footer-social a { 
+    margin-left: 20px; 
+    color: #777; 
+    border: 0;
+}
+.footer-social a:hover, .footer-social a:focus { 
+    color: #cfa671; 
+    border: 0; 
+}
+.footer-social i { 
+    font-size: 24px; 
+    vertical-align: middle; 
+}
+
+.footer-copyright { 
+    padding-top: 5px; 
 }
