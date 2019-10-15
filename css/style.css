@@ -66,7 +66,11 @@ h3 {
 	border-radius: 4px;
     font-family: "Open Sans"
 }
-
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{    
+    background: #cfa671;    
+    color: #ffffff; 
+} 
+    
 
 /*----------------------sa--------------------------------------------
     Slider
@@ -211,8 +215,9 @@ h3 {
 }
 .heading-title h2{
     color: #010101;
-    font-size: 28px;
-    font-family: 'Arbutus Slab', serif;
+    font-size: 46px;
+    font-family: Tangerine, serif;
+    font-weight: bold;
 }
 
 .filter-button-group {
@@ -403,6 +408,7 @@ h3 {
   font-size: 16px;
   margin-bottom: 8px;
   letter-spacing: 0.5px;
+  font-weight: bold;
 }
 
 .mu-contact-right {
@@ -424,6 +430,7 @@ h3 {
   margin-top: 0px;
   padding-bottom: 10px;
   display: inline-block;
+  font-weight: bold;
 }
 
 .mu-contact-right .mu-contact-widget > p {
@@ -527,4 +534,24 @@ h3 {
     color: #ffffff;
     background-color: #cfa671;
     border-color: #cfa671;
+}
+/*------------------------------------------------------------------
+    Gallery
+-------------------------------------------------------------------*/
+
+.gallery-box{
+    padding: 100px 0px;
+}
+.tz-gallery{
+    margin-top: 30px;
+}
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
