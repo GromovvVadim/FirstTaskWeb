@@ -42,18 +42,3 @@
 	});
 		
 }(jQuery));
-
-function clearFieldsContact() {
-    document.getElementById("name").value=""
-    document.getElementById("email").value=""
-    document.getElementById("subject").value=""
-    document.getElementById("message").value=""
-}
-
-function clearFieldsReservation() {
-    document.getElementById("datetime1").value=""
-    document.getElementById("person1").value="Number of people"
-    document.getElementById("name1").value=""
-    document.getElementById("email1").value=""
-}
-

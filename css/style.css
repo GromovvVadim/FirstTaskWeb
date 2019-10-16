@@ -51,7 +51,7 @@ h3 {
 }
 .top-navbar h3{
     font-family: Tangerine;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: bold;
 }
 .top-navbar .navbar{
@@ -84,9 +84,10 @@ h3 {
 }
 .slides-navigation a {
     background: #cfa671;
+    padding-bottom: 40px;
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     top: 50%;
     font-size: 20px;
     display: block;
@@ -190,12 +191,14 @@ h3 {
 }
 .inner-column{}
 .inner-column h1{
-    font-family: 'Arbutus Slab', serif;
-    font-size: 30px;
+    font-family: Tangerine, serif;
+    font-weight: bold;
+    font-size: 45px;
     color: #010101;
 }
 .inner-column h1 span{
     color: #d0a772;
+    font-weight: bold;
     font-family: Tangerine;
     font-size: 45px;
 }
@@ -272,21 +275,23 @@ h3 {
     color: #ffffff;
     font-size: 24px;
     font-weight: 500;
-    font-family: 'Arbutus Slab', serif;
+    font-family: 'Open Sans', serif;
 }
 .why-text p{
     color: #ffffff;
     font-size: 18px;
     border-bottom: 1px dashed #010101;
     margin: 0px;
-    padding-bottom: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
 }
 .why-text h5{
     font-size: 28px;
     font-weight: 600;
     color: #ffffff;
+    font-family: 'Open Sans'
 }
 
 .gallery-single:hover .why-text{
@@ -381,7 +386,7 @@ h3 {
 #mu-contact {
   display: inline;
   float: left;
-  padding: 70px 0;
+  padding: 100px 0;
   width: 100%;
   background-color: #f8f8f8;
 }
@@ -402,7 +407,6 @@ h3 {
 .mu-contact-left {
   display: inline;
   float: left;
-  padding-bottom: : 100px;
   font-family: Open Sans, sans-serif;
   width: 100%;
 }
@@ -421,7 +425,7 @@ h3 {
 .mu-contact-right {
   display: inline;
   float: left;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 0;
   width: 100%;
   font-family: Open Sans, sans-serif;
 }
@@ -479,6 +483,7 @@ h3 {
     background-color: transparent;
     background-image: none;
     border-color: #cfa671;
+    margin-bottom: 40px;
 }
 .btn.btn-common:hover{
     color: #ffffff;
