@@ -33,8 +33,10 @@ h6 {
     margin: 0
 }
 h3 {
-    font-size: 18px
+    font-size: 18px;
+    font-family: Open Sans;
 }
+
 
 
 /*------------------------------------------------------------------
@@ -181,7 +183,7 @@ h3 {
 -------------------------------------------------------------------*/
 
 .about-section-box{
-    padding: 100px 0px;
+    padding: 120px 0px;
 }
 .about-section-box .img-fluid{
     box-shadow: -10px -10px 0px #d0a772;
@@ -207,7 +209,7 @@ h3 {
 -------------------------------------------------------------------*/
 
 .menu-box{
-    padding: 90px 0px;
+    padding: 100px 0px;
     background-color: #f8f8f8;
 }
 
@@ -297,6 +299,7 @@ h3 {
 
 .customer-reviews-box{
     padding: 100px 50px;
+    background-color: #f8f8f8;
 }
 
 .carousel-inner .carousel-item .img-box{
@@ -319,7 +322,8 @@ h3 {
 }
 .carousel-inner .carousel-item p{
     font-size: 18px;
-    font-family: "Open Sans"
+    font-family: "Open Sans";
+    height: 100px;
 }
 
 
@@ -377,9 +381,9 @@ h3 {
 #mu-contact {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 70px 0;
   width: 100%;
-  background: #ffffff;
+  background-color: #f8f8f8;
 }
 
 .mu-contact-area {
@@ -463,7 +467,7 @@ h3 {
 }
 
 #form-messages {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
     background-color: #fff;
 }
 
@@ -502,7 +506,6 @@ h3 {
 ====================*/
 .reservation-box{
     padding: 100px 0px;
-    background-color: #f8f8f8;
 }
 
 .reservation-box h3{
@@ -560,7 +563,9 @@ h3 {
 }
 
 
-/***** Footer *****/
+/*------------------------------------------------------------------
+    Footer
+-------------------------------------------------------------------*/
 
 .footer-top { 
     padding: 40px 0;
@@ -568,8 +573,8 @@ h3 {
     font-family: Open Sans;  
 }
 .footer-top h2 { 
-    margin-top: 30px;
-    margin-bottom: -2px;
+    margin-top: 35px;
+    margin-bottom: -5px;
     color: #000;
     font-weight: bold; 
     font-family: Tangerine;
