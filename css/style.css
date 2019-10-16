@@ -44,6 +44,8 @@ h3 {
 .top-navbar{
 	position: relative;
 	z-index: 10;
+    background: #333; 
+    color: #aaa;
 }
 .top-navbar h3{
     font-family: Tangerine;
@@ -562,26 +564,31 @@ h3 {
 
 .footer-top { 
     padding: 40px 0;
-    background: #333; 
-    text-align: left; 
-    color: #aaa; 
+    text-align: left;
+    font-family: Open Sans;  
 }
 .footer-top h2 { 
     margin-top: 30px;
-    margin-bottom: -10px;
-    color: #fff; 
+    margin-bottom: -2px;
+    color: #000;
+    font-weight: bold; 
     font-family: Tangerine;
-    font-size: 46px;
+    font-size: 40px;
 }
 .footer-top h3 { 
     padding-top: 5px; 
     margin-top: 45px;
-    color: #fff; 
+    color: #000;
+    font-weight: bold;
 }
 
 .footer-about p a { 
     border: 0; 
     color: #cfa671;
+}
+.footer-about p a:hover, .footer-about p a:focus { 
+    color: #000; 
+    border: 0;
 }
 
 .footer-contact p { 
@@ -597,7 +604,7 @@ h3 {
 }
 
 .footer-links a { 
-    color: #aaa; 
+    color: #000; 
     border: 0; 
 }
 .footer-links a:hover, .footer-links a:focus { 
@@ -605,6 +612,7 @@ h3 {
 }
 
 .footer-bottom { 
+    font-family: Open Sans; 
     padding: 15px 0 17px 0; 
     background: #444; 
     text-align: left; 

@@ -17,8 +17,8 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+  <!-- Datetime picker -->
+  <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
 
 </head>
 
@@ -378,7 +378,10 @@
                     <h3>Book a table</h3>
                     <div class="col-md-12">
                       <div class="form-group">
-                        <input id="datetime1" class ="form-control" placeholder="Date">
+                        <div class="input-append date form_datetime">
+                          <input type="text" class = "form-control" value="" placeholder="Date" readonly>
+                          <span class="add-on"><i class="icon-th"></i></span>
+                        </div>
                       </div>                                 
                     </div>
 
@@ -505,7 +508,7 @@
 
   <!-- Footer -->
   <footer>
-    <div class="footer-top">
+    <div class="footer-top footer-light bg-light">
       <div class="container">
         <div class="row">
           <div class="col-md-3 footer-about wow fadeInUp">
@@ -577,8 +580,15 @@
   <script src="js/isotope.min.js"></script>
   <script src="js/baguetteBox.min.js"></script>
   <script src="js/custom.js"></script>
-  <script src="js/jquery.datetimepicker.full.js"></script>
-  <script>$("#datetime").datetimepicker();  </script>
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
+  <script type="text/javascript">
+    $(".form_datetime").datetimepicker({
+        format: "dd MM yyyy - hh:ii",
+        autoclose: true,
+        todayBtn: true,
+        pickerPosition: "bottom-right"
+    });
+</script> 
 </body>
 
 </html>
