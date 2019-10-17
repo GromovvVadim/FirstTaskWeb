@@ -312,7 +312,7 @@ h3 {
     height: 150px;
 }
 .carousel-control-prev{
-    left: -100px;
+    left: -100px;s
 }
 .carousel-control-next{
     right: -100px;
@@ -335,6 +335,7 @@ h3 {
 @media (min-width: 320px) and (max-width: 640px) {
     .carousel-inner .carousel-item p{
         font-size: 16px;
+        height: 200px;
     }
     .carousel-control-prev{
         left: -5px;
