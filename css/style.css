@@ -576,7 +576,8 @@ h3 {
 .footer-top { 
     padding: 40px 0;
     text-align: left;
-    font-family: Open Sans;  
+    font-family: Open Sans; 
+    display: block; 
 }
 .footer-top h2 { 
     margin-top: 35px;
